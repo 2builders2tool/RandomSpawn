@@ -1,0 +1,6 @@
+main: codes.antti.randomspawn.Main
+name: RandomSpawn
+version: 0.1
+api-version: 1.15
+author: antti@antti.codes
+loadbefore: [ Essentials, EssentialsSpawn ]

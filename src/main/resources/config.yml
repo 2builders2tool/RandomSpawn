@@ -1,0 +1,8 @@
+min-x: -5
+max-x: 5
+min-z: -5
+max-z: 5
+world: world
+respawnRadius: 20 
+safe-blocks:
+  - grass_block
