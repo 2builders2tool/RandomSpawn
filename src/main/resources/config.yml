@@ -1,8 +1,16 @@
-min-x: -5
-max-x: 5
-min-z: -5
-max-z: 5
+min-x: -128
+max-x: 128
+min-y: 64
+max-y: 128
+min-z: -128
+max-z: 128
 world: world
-respawnRadius: 20 
+respawnRadius: 128
+tries: 1000
 safe-blocks:
   - grass_block
+  - grass
+  - dirt
+  - gravel
+  - stone
+  - oak_leaves

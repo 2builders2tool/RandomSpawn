@@ -8,8 +8,6 @@ import org.bukkit.event.player.PlayerRespawnEvent;
 import codes.antti.randomspawn.FindSafeSpawn;
 import org.bukkit.configuration.file.FileConfiguration;
 
-import org.bukkit.Location;
-
 public class PlayerDeathHandler implements Listener {
     private FileConfiguration config = Bukkit.getPluginManager().getPlugin("RandomSpawn").getConfig();
     private int respawnRadius = config.getInt("respawnRadius");
